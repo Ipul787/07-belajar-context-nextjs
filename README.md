@@ -36,4 +36,15 @@ Output:
 
 The display of the website reveals the level of the heading and sections in the main page. This is done by the use of context which provides necessary components from a child component to the parent component. 
 
+## Answer of Question No. 2
+
+The initial run of the website results in the following error. 
+
+![Screenshot](assets/02.png)
+
+This is because the `createContext` function only works in the Client component instead of the Server component which is normally created in Next.js. Therefore, we need to modify the entire file (`mycontext.tsx`, `heading.tsx`, `section.tsx`) with the `'use client'` code. 
+
+Output: 
+
+![Screenshot](assets/03.png)
 
