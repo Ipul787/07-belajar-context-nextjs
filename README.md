@@ -48,3 +48,8 @@ Output:
 
 ![Screenshot](assets/03.png)
 
+## Answer of Question No. 3
+
+Output: 
+
+![Screenshot](assets/04.png)
