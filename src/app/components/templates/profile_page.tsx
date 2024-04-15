@@ -2,10 +2,7 @@ import Heading from "../atoms/heading";
 import Post from "../atoms/post";
 import Section2 from "../atoms/section2";
 import AllPosts from "../organisms/allpost";
-AllPosts
-Section2
-Post
-Heading
+
 
 export default function ProfilePage(){
     return (
